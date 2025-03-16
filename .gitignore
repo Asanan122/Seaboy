@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+.venv/
+
+# Models and data (especially if they are big)
+data/
+models/
+
+# Your environment variables file
+.env
