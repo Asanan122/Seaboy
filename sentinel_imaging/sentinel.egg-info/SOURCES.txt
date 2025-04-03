@@ -1,0 +1,15 @@
+setup.py
+scripts/__init__.py
+scripts/fetch_sentinel_image.py
+scripts/test_auth.py
+scripts/test_cdse_connection.py
+scripts/view_sentinel.py
+sentinel.egg-info/PKG-INFO
+sentinel.egg-info/SOURCES.txt
+sentinel.egg-info/dependency_links.txt
+sentinel.egg-info/top_level.txt
+src/__init__.py
+src/config_sentinel.py
+src/test_sentinel_connection.py
+src/utils/__init__.py
+src/utils/image_verification.py

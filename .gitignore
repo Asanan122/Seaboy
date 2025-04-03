@@ -11,3 +11,4 @@ models/
 
 # Your environment variables file
 .env
+/sentinel_imaging/venv
