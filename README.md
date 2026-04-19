@@ -13,21 +13,6 @@ Python 3.9+
 A Copernicus Data Space Ecosystem (CDSE) account
 Your CDSE OAuth2 Client ID and Client Secret (generated in the CDSE dashboard)
 
-
-Setup
-1. Clone the repository
-bashgit clone https://github.com/Asanan122/Seaboy.git
-cd Seaboy
-2. Create a virtual environment and install dependencies
-bashpython -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-3. Configure your credentials
-Create a .env file in the project root:
-envSENTINELHUB_CLIENT_ID=your_client_id_here
-SENTINELHUB_CLIENT_SECRET=your_client_secret_here
-SENTINELHUB_AUTH_URL=https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token
-
 Usage
 Test your connection
 Verify that your credentials are valid and the CDSE endpoints are reachable:
