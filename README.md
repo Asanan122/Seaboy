@@ -7,21 +7,6 @@ Overview
 Seaboy fetches true-colour (RGB) Sentinel-2 L2A satellite images for a defined geographic area and saves them as GeoTIFF files. It also includes utilities to test your CDSE connection and visualise downloaded imagery with contrast enhancement.
 The default area of interest is the San Francisco Bay Area, but the bounding box can be changed to any location.
 
-Project Structure
-Seaboy/
-├── scripts/
-│   ├── fetch_sentinel_image.py   # Main script — downloads Sentinel-2 imagery
-│   ├── test_connection.py        # Tests authentication and CDSE endpoint connectivity
-│   ├── view_image.py             # Visualises downloaded GeoTIFF images
-│   └── auth_test.py              # Standalone OAuth2 token request debugger
-├── src/
-│   ├── config_sentinel.py        # Builds and exposes the global SHConfig object
-│   └── setup_config.py           # Alternative config loader with credential validation
-├── data/                         # Output directory for downloaded .tiff images (git-ignored)
-├── .env                          # Your credentials (git-ignored — see setup below)
-├── .gitignore
-└── requirements.txt
-
 Prerequisites
 
 Python 3.9+
